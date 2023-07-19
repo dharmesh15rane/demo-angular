@@ -1,0 +1,56 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: yellow;
+}
+
+.button {
+
+    bottom: 0%;
+    position: fixed;
+    right: 0%;
+    margin: 10px 15px;
+}
+
+button {
+
+    margin: 5px 6px;
+
+    border-color: azure;
+    padding: 8px 15px;
+}
+
+
+.dropdown-white {
+    background-color: white;
+
+}
+
+select {
+    height: 38px;
+    border-radius: 5px;
+
+}
+
+@media(max-width: 765px) {
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    select {
+        height: 38px;
+        border-radius: 5px;
+
+    }
+    .button {
+
+        bottom: 0%;
+        position: fixed;
+        right: 0%;
+        margin: 10px 15px;
+    }
+}
